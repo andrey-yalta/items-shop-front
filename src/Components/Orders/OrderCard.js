@@ -14,7 +14,7 @@ export const OrderCard =({id, date,user,courses , price})=>{
                 </ol>
                 <hr/>
                 <p><b>Общая цена:</b> <span className="price"> {price} руб </span></p>
-
+                <button className="btn"> удалить заказ </button>
             </div>
         </div>
     )
