@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.main{
+    height: 100%;
+    min-height: 100vh;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-login{
+    margin-left: 100px;
 }
-
-.App-link {
-  color: #61dafb;
+.shop{
+    display: flex;
+    flex-wrap: wrap;
 }
+.home{
+    position: absolute;
+    left: 0;
+    top: 4em;
+    background:center no-repeat  url("https://i.pinimg.com/originals/29/d2/46/29d246cc8954f12113b3b86b0051464e.jpg") ;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    width: 100%;
+    height: 100vh;
+}
+.home h1{
+    /*color: white;*/
+}
+.card-image img{
+    /*height: 200px;*/
+    /*width: 100%;*/
+    /*max-height: 200px;*/
+    /*height: 40%;*/
+}
+.card-action .btn{
+    margin-right: 20px;
+}
+.item__item{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.item__item img{
+    max-width: 300px;
+}
+h3{
+    color: black;
+}
+.btn{
+    margin-right: 10px;
+}
+.preloader{
+    margin-top: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.orders{
+    display: flex;
+    flex-wrap: wrap;
 }
